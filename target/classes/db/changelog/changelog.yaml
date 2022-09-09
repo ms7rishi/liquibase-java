@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/V2__createTable.sql
+  - include:
+      file: db/changelog/V3__updateTable.sql
+  - include:
+      file: db/changelog/V4__validateTable.sql
+  - include:
+      file: db/changelog/V5__insertData.sql
